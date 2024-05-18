@@ -2,6 +2,8 @@
 tmp/
 
 # vue
+app/.vscode/
+app/node_modules/
 
 # all
 .env
