@@ -20,7 +20,7 @@ func init() {
 	} 
 	user := os.Getenv("AUTH")
 	pw := os.Getenv("MYSQL_ROOT_PASSWORD")
-	database := os.Getenv("MYSQL_DATABASE")
+	database := os.Getenv("MYSQL_DATABASE_NAME")
 	var path string = fmt.Sprintf("%s:%s@tcp(127.0.0.1:3306)/%s?charset=utf8&parseTime=True", user, pw, database)
 	fmt.Println("path:", path)
 	var err error
